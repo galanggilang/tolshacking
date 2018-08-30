@@ -1,26 +1,28 @@
-import os
+TOOLS
 
 def menu():
 
-    print("""\033[96m
-.########..#######...#######..##........######...
-....##....##.....##.##.....##.##.......##....##..
-....##....##.....##.##.....##.##.......##........
-....##....##.....##.##.....##.##........######...
-....##....##.....##.##.....##.##.............##..
-....##....##.....##.##.....##.##.......##....##..
-....##.....#######...#######..########..######...
-========================================
-\033[91mCreated By AnonHacker
-\033[93mChannel: youtube.com/kalinuxx
-\033[92mFacebook: facebook.com/kalinuxtutorials
-\033[95mVer: 2.0
-\033[96m----
-\033[92mONLY FOR TERMUX!
-\033[96m----\033[0m
-==========================================
-00. Turn your Android into Hacking Machine.
-------------------------------------------
+    print("""
+========================================================================================================================
+||.########..#######...#######..##........######....##....##.########...#######...##....##.##.###.......##..########''||
+||....##....##.....##.##.....##.##.......##....##...##....##.##....##.##.......##.##...##..##.##.##.....##.##......##.||
+||....##....##.....##.##.....##.##.......##.........##....##.##....##.##..........##..##...##.##..##....##.##.........||
+||....##....##.....##.##.....##.##........######....########.########.##..........####.....##.##...##...##.##...#####.||
+||....##....##.....##.##.....##.##.............##...##....##.##....##.##..........##..##...##.##....##..##.##......##.||
+||....##....##.....##.##.....##.##.......##....##...##....##.##....##.##.......##.##...##..##.##.....##.##.##......##.||
+||....##.....#######...#######..########..######....##....##.##....##...#######...##....##.##.##......####..#######...||
+========================================================================================================================
+Created By SIT_GM
+Blogs: http://www.x7sit.me
+Team:Shutdown Indo Team
+Contact:ahmadhabib7900@gmail.com
+Copyright: @SIT2018
+================
+Selamat Datang!
+================
+::::::::::::::::::::::::::::::::::
+00. Silahkan Pilih TOOLS Hacking
+::::::::::::::::::::::::::::::::::
 1. Install Nmap 
 2. Install Hydra
 3. Install SQLMap
@@ -30,18 +32,18 @@ def menu():
 7. Install angryFuzzer
 8. Install Red_Hawk
 9. Install Weeman
-10. Install IPGeoLocation
-11. Install Cupp
-12. Instagram Bruteforcer (instahack)
-13. Twitter Bruteforcer   (TwitterSniper)
-14. Install Ubuntu
-15. Install Fedora
-16. Install viSQL
-17. Install Hash-Buster
-18. Install D-TECT
-19. Install routersploit
-------------------------------------------
-99. Exit
+10.Install IPGeoLocation
+11.Install Cupp
+12.Instagram Bruteforcer (instahack)
+13.Twitter Bruteforcer   (TwitterSniper)
+14.Install Ubuntu
+15.Install Fedora
+16.Install viSQL
+17.Install Hash-Buster
+18.Install D-TECT
+19.Install routersploit
+==========================================
+99. Keluar
 ==========================================
 """)
 
@@ -54,12 +56,12 @@ while loop:
         print("================================")
         print("This will install: nmap, hydra, sqlmap, metasploit, ngrok, angryFuzzer, red_hawk, weeman, IPGeoLocation, cupp, instahack, TwitterSniper, Hash-Buster, D-TECT, routersploit and viSQL with one click.")
         print("----------------")
-        hm = input("[?] Do you want to continue? (y/n): ")
+        hm = input("[?] Apakah anda ingin melanjutkan? (y/n): ")
         print("================================")
-        if hm == "y":
+        if hm == "Y":
             print("========================================================")
-            print("[+] Please put down you android and go to the toilet...")
-            print("Because this will take a long time.")
+            print("[+] Silahkan di tunggu...")
+            print("Perintah sedang di proses.")
             print("========================================================")
             os.system("pkg update")
             os.system("pkg install -y git")
@@ -151,12 +153,12 @@ while loop:
             os.system("pip2 install -r requests")
             os.system("clear")
             print("========================================")
-            print("[+] everything successfully installed :)")
-            print("[+] Happy Hacking <3")
+            print("[+] everything Install Sukses :)")
+            print("[+] Senang bisa Hacking <3")
             print("========================================")
         else:
-            rmenu = input("[?] Back to Menu? (y/n): ")
-            if rmenu == "y":
+            rmenu = input("[?] Kembali ke Menu? (y/n): ")
+            if rmenu == "Y":
                 menu()
             else:
                 break
@@ -166,11 +168,11 @@ while loop:
         os.system("pkg install -y nmap")
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
-        print("[+] nmap installed successfully :)")
-        print("[+] Type 'nmap' to start.")
+        print("[+] nmap Install Sukses :)")
+        print("[+] Klik 'nmap' untuk memulai.")
         print("====================================")
-        rmenu = input("[?] Back to Menu? (y/n): ")
-        if rmenu == "y":
+        rmenu = input("[?] Kembali ke Menu? (y/n): ")
+        if rmenu == "Y":
             menu()
         else:
             break
@@ -180,11 +182,11 @@ while loop:
         os.system("pkg install -y hydra")
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
-        print("[+] hydra installed successfully :)")
-        print("[+] Type 'hydra' to start.")
+        print("[+] hydra Install Sukses :)")
+        print("[+] Klik 'hydra untuk memulai.")
         print("====================================")
-        rmenu = input("[?] Back to Menu? (y/n): ")
-        if rmenu == "y":
+        rmenu = input("[?] Kembali ke Menu? (y/n): ")
+        if rmenu == "Y":
             menu()
         else:
             break
@@ -196,11 +198,11 @@ while loop:
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/sqlmapproject/sqlmap.git")
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
-        print("[+] SQLMap installed successfully :)")
-        print("[+] Go to sqlmap folder and type 'python2 sqlmap.py' to start.")
+        print("[+] SQLMap Install Sukses :)")
+        print("[+] Klik sqlmap folder and type 'python2 sqlmap.py' untuk memulai.")
         print("====================================")
-        rmenu = input("[?] Back to Menu? (y/n): ")
-        if rmenu == "y":
+        rmenu = input("[?] Kembali ke Menu? (y/n): ")
+        if rmenu == "Y":
             menu()
         else:
             break
@@ -214,11 +216,11 @@ while loop:
         os.system("cd /data/data/com.termux/files/home && bundle install")
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
-        print("[+] Metasploit installed successfully :)")
-        print("[+] Type 'msfconsole' to start.")
+        print("[+] Metasploit Install Sukses :)")
+        print("[+] Klik 'msfconsole' untuk memulai.")
         print("====================================")
-        rmenu = input("[?] Back to Menu? (y/n): ")
-        if rmenu == "y":
+        rmenu = input("[?] Kembali ke Menu? (y/n): ")
+        if rmenu == "Y":
             menu()
         else:
             break
@@ -228,11 +230,11 @@ while loop:
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/themastersunil/ngrok.git")
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
-        print("[+] ngrok installed successfully :)")
-        print("[+] Go to ngrok folder and type './ngrok http 80' to start.")
+        print("[+] ngrok Install Sukses :)")
+        print("[+] Klik ngrok folder and type './ngrok http 80' untuk memulai.")
         print("====================================")
-        rmenu = input("[?] Back to Menu? (y/n): ")
-        if rmenu == "y":
+        rmenu = input("[?] Kembali ke Menu? (y/n): ")
+        if rmenu == "Y":
             menu()
         else:
             break
@@ -242,11 +244,11 @@ while loop:
         os.system("cd /data/data/com.termux/files/home && cd Nethunter-In-Termux && chmod +x kalinethunter")
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
-        print("[+] Nethunter installed successfully :)")
-        print("[+] Go to Nethunter-In-Termux folder and type './kalinethunter' to start.")
+        print("[+] Nethunter Install Sukses :)")
+        print("[+] Klik Nethunter-In-Termux folder and type './kalinethunter' untuk memulai.")
         print("====================================")
-        rmenu = input("[?] Back to Menu? (y/n): ")
-        if rmenu == "y":
+        rmenu = input("[?] Kembali ke Menu? (y/n): ")
+        if rmenu == "Y":
             menu()
         else:
             break
@@ -260,11 +262,11 @@ while loop:
         os.system("cd /data/data/com.termux/files/home && pip2 install requests")
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
-        print("[+] angryFuzzer installed successfully :)")
-        print("[+] Go to angryFuzzer folder and type 'python2 angryFuzzer.py' to start.")
+        print("[+] angryFuzzer Install Sukses :)")
+        print("[+] Klik angryFuzzer folder and type 'python2 angryFuzzer.py' untuk memulai.")
         print("====================================")
-        rmenu = input("[?] Back to Menu? (y/n): ")
-        if rmenu == "y":
+        rmenu = input("[?] Kembali ke Menu? (y/n): ")
+        if rmenu == "Y":
             menu()
         else:
             break
@@ -275,11 +277,11 @@ while loop:
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/Tuhinshubhra/RED_HAWK")
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
-        print("[+] RED_HAWK installed successfully :)")
-        print("[+] Go to RED_HAWK folder and type 'php rhawk.php' to start.")
+        print("[+] RED_HAWK Install Sukses :)")
+        print("[+] Klik RED_HAWK folder and type 'php rhawk.php' untuk memulai.")
         print("====================================")
-        rmenu = input("[?] Back to Menu? (y/n): ")
-        if rmenu == "y":
+        rmenu = input("[?] Kembali ke Menu? (y/n): ")
+        if rmenu == "Y":
             menu()
         else:
             break
@@ -292,11 +294,11 @@ while loop:
         os.system("cd /data/data/com.termux/files/home && chmod +x weeman.py")
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
-        print("[+] weeman installed successfully :)")
-        print("[+] Go to weeman folder and type 'python2 weeman.py' to start.")
+        print("[+] weeman Install Sukses  :)")
+        print("[+] Klik weeman folder and type 'python2 weeman.py' untuk memulai.")
         print("====================================")
-        rmenu = input("[?] Back to Menu? (y/n): ")
-        if rmenu == "y":
+        rmenu = input("[?] Kembali ke Menu? (y/n): ")
+        if rmenu == "Y":
             menu()
         else:
             break
@@ -309,11 +311,11 @@ while loop:
         os.system("cd /data/data/com.termux/files/home && pip install -r requirements.txt")
         os.system("cd /data/data/com.termux/files/home")
         print("====================================")
-        print("[+] IPGeoLocation installed successfully :)")
-        print("[+] Go to IPGeoLocation folder and type 'python ipgeolocation.py' to start.")
+        print("[+] IPGeoLocation Install Sukses :)")
+        print("[+] Klik IPGeoLocation folder and type 'python ipgeolocation.py' untuk memulai.")
         print("====================================")
-        rmenu = input("[?] Back to Menu? (y/n): ")
-        if rmenu == "y":
+        rmenu = input("[?] Kembali ke Menu? (y/n): ")
+        if rmenu == "Y":
             menu()
         else:
             break
@@ -323,11 +325,11 @@ while loop:
         os.system("pkg install -y python")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/Mebus/cupp.git")
         print("====================================")
-        print("[+] Cupp installed successfully :)")
-        print("[+] Go to cupp folder and type 'python cupp3.py' to start.")
+        print("[+] Cupp Install Sukses :)")
+        print("[+] Klik cupp folder and type 'python cupp3.py' untuk memulai.")
         print("====================================")
-        rmenu = input("[?] Back to Menu? (y/n): ")
-        if rmenu == "y":
+        rmenu = input("[?] Kembali ke Menu? (y/n): ")
+        if rmenu == "Y":
             menu()
         else:
             break
@@ -340,11 +342,11 @@ while loop:
         os.system("pip install beautifulsoup4")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/avramit/instahack.git")
         print("====================================")
-        print("[+] Instahack installed successfully :)")
-        print("[+] Go to instahack folder and type 'python hackinsta.py' to start.")
+        print("[+] Instahack Install Sukses :)")
+        print("[+] Klik instahack folder and type 'python hackinsta.py' untuk memulai.")
         print("====================================")
-        rmenu = input("[?] Back to Menu? (y/n): ")
-        if rmenu == "y":
+        rmenu = input("[?] Kembali ke Menu? (y/n): ")
+        if rmenu == "Y":
             menu()
         else:
             break
@@ -356,11 +358,11 @@ while loop:
         os.system("pkg install -y nano")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/abdallahelsokary/TwitterSniper.git")
         print("====================================")
-        print("[+] TwitterSniper installed successfully :)")
-        print("[+] Go to TwitterSniper folder and type 'python TwitterSniper.py' to start.")
+        print("[+] TwitterSniper Install Sukses :)")
+        print("[+] Klik TwitterSniper folder and type 'python TwitterSniper.py' untuk memulai.")
         print("====================================")
-        rmenu = input("[?] Back to Menu? (y/n): ")
-        if rmenu == "y":
+        rmenu = input("[?] Kembali ke Menu? (y/n): ")
+        if rmenu == "Y":
             menu()
         else:
             break
@@ -370,11 +372,11 @@ while loop:
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/Neo-Oli/termux-ubuntu.git")
         os.system("cd /data/data/com.termux/files/home && cd termux-ubuntu && bash ubuntu.sh")
         print("====================================")
-        print("[+] Ubuntu installed successfully :)")
-        print("[+] Go to termux-ubuntu folder and type './start.sh' to start.")
+        print("[+] Ubuntu Install Sukses :)")
+        print("[+] Klik termux-ubuntu folder and type './start.sh' untuk memulai.")
         print("====================================")
-        rmenu = input("[?] Back to Menu? (y/n): ")
-        if rmenu == "y":
+        rmenu = input("[?] Kembali ke Menu? (y/n): ")
+        if rmenu == "Y":
             menu()
         else:
             break
@@ -384,11 +386,11 @@ while loop:
         os.system("pkg install -y wget")
         os.system("apt update && apt install wget -y && /data/data/com.termux/files/usr/bin/wget https://raw.githubusercontent.com/nmilosev/termux-fedora/master/termux-fedora.sh")
         print("====================================")
-        print("[+] Fedora installed successfully :)")
-        print("[+] Type 'sh termux-fedora.sh f26_arm64' or 'sh termux-fedora.sh f26_arm' to start.")
+        print("[+] Fedora Install Sukses :)")
+        print("[+] Klik 'sh termux-fedora.sh f26_arm64' or 'sh termux-fedora.sh f26_arm' untuk memulai.")
         print("====================================")
-        rmenu = input("[?] Back to Menu? (y/n): ")
-        if rmenu == "y":
+        rmenu = input("[?] Kembali ke Menu? (y/n): ")
+        if rmenu == "Y":
             menu()
         else:
             break
@@ -398,11 +400,11 @@ while loop:
         os.system("pkg install -y python2")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/blackvkng/viSQL.git")
         print("====================================")
-        print("[+] viSQL installed successfully :)")
-        print("[+] Go to viSQL folder and type 'python2 viSQL.py --help' to start.")
+        print("[+] viSQL Install Sukses :)")
+        print("[+] Klik viSQL folder and type 'python2 viSQL.py --help' untuk memulai.")
         print("====================================")
-        rmenu = input("[?] Back to Menu? (y/n): ")
-        if rmenu == "y":
+        rmenu = input("[?] Kembali ke Menu? (y/n): ")
+        if rmenu == "Y":
             menu()
         else:
             break
@@ -412,11 +414,11 @@ while loop:
         os.system("pkg install -y python2")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/UltimateHackers/Hash-Buster.git")
         print("====================================")
-        print("[+] Hash-Buster installed successfully :)")
-        print("[+] Go to Hash-Buster folder and type 'python2 hash.py' to start.")
+        print("[+] Hash-Buster Install Sukses :)")
+        print("[+] Klik Hash-Buster folder and type 'python2 hash.py' untuk memulai.")
         print("====================================")
-        rmenu = input("[?] Back to Menu? (y/n): ")
-        if rmenu == "y":
+        rmenu = input("[?] Kembali ke Menu? (y/n): ")
+        if rmenu == "Y":
             menu()
         else:
             break
@@ -426,14 +428,15 @@ while loop:
         os.system("pkg install -y python2")
         os.system("cd /data/data/com.termux/files/home && git clone https://github.com/shawarkhanethicalhacker/D-TECT.git")
         print("====================================")
-        print("[+] Hash-Buster installed successfully :)")
-        print("[+] Go to Hash-Buster folder and type 'python2 hash.py' to start.")
+        print("[+] Hash-Buster Install Sukses :)")
+        print("[+] Klik Hash-Buster folder and type 'python2 hash.py' untuk memulai.")
         print("====================================")
-        rmenu = input("[?] Back to Menu? (y/n): ")
-        if rmenu == "y":
+        rmenu = input("[?] Kembali ke Menu? (y/n): ")
+        if rmenu == "Y":
             menu()
         else:
             break
+    elif what == "19":
             os.system("pkg update -y")
             os.system("pkg install -y git")
             os.system("pkg install -y python2")
@@ -443,14 +446,14 @@ while loop:
             os.system("pip2 install -r requirements-dev.txt")
             os.system("pip2 install -r requests")
             print("====================================")
-            print("[+] routersploit installed successfully :)")
-            print("[+] Go to routersploit folder and type 'python2 rsf.py' to start.")
+            print("[+] routersploit Install Sukses :)")
+            print("[+] Klik routersploit folder and type 'python2 rsf.py' untuk memulai.")
             print("====================================")
-            rmenu = input("[?] Back to Menu? (y/n): ")
-            if rmenu == "y":
+            rmenu = input("[?] Kembali ke Menu? (y/n): ")
+            if rmenu == "Y":
                 menu()
             else:
                 break
     elif what == "99":
-        print("Bye.")
+        print("TERIMAKASIH")
         break
